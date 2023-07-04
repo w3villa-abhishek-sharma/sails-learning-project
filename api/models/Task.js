@@ -8,6 +8,10 @@
 module.exports = {
 
   attributes: {
+    uuid: {
+      type: 'string',
+      required: true,
+    },
     task_name: {
       type: 'string',
       required: true,

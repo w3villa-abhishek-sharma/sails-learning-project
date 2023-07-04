@@ -3,6 +3,6 @@ module.exports = function (req, res, next) {
     if (req.headers.token == TOKEN) {
         return next();
     } else {
-        return res.status(401).json({status: false,msg: "unauthorized access"}); 
+        return res.status(401).json({ status: false, msg: "unauthorized access" });
     }
 };

@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Sails Project",
+    "dateExported": "2023-07-04T06:33:54.013Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c0b66e9e-67dc-4b24-a39c-c7f76e643a6e",
+            "colId": "b574a71d-7925-4525-a6f7-9fff0bcc2776",
+            "containerId": "",
+            "name": "create task",
+            "url": "http://localhost:1337/create-task",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-03T11:30:41.522Z",
+            "modified": "2023-07-03T13:07:38.709Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbsGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiaGlzaGVrcGFuZGl0NTU5OSIsImVtYWlsIjoiZXhhbXBsZUBnbWFpbC5jb20iLCJfaWQiOiI2NDliZDc2OGFkNzRjMWFjN2Q0NGE2NjIiLCJpYXQiOjE2ODc5MzUxMTh9.Eg-cUPJFu96WvSMx3Ad19AJUsXQRrEyps8_qitRNVcE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task_name\": \"Task 01\",\n  \"task_description\": \"Description of Task 01\",\n  \"task_status\": \"in progress\",\n  \"task_priority\": \"high\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c7eb356d-ecb7-4540-9636-f1745671ebd0",
+            "colId": "b574a71d-7925-4525-a6f7-9fff0bcc2776",
+            "containerId": "",
+            "name": "get all task",
+            "url": "http://localhost:1337/tasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-03T11:38:12.442Z",
+            "modified": "2023-07-03T11:38:38.679Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
